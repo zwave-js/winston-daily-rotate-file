@@ -120,7 +120,7 @@ describe('winston/transports/daily-rotate-file', function () {
         });
 
         it('should write to the file', function (done) {
-            this.transport.on('finish', function () {
+            this.transport.once('finish', function () {
                 var logEntries = fs.readFileSync(filename).toString().split('\n').slice(0, -1);
                 expect(logEntries.length).to.equal(1);
 

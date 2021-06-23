@@ -1,5 +1,7 @@
 # winston-daily-rotate-file
 
+Forked version with a fixed `file-stream-rotator` dependency - see https://github.com/winstonjs/winston-daily-rotate-file/issues/226
+
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 [![NPM](https://nodei.co/npm/winston-daily-rotate-file.png)](https://nodei.co/npm/winston-daily-rotate-file/)
